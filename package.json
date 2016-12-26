@@ -3,7 +3,8 @@
   "description": "My first react project",
   "main": "index.js",
   "scripts": {
-    "test": "reactTest"
+    "test": "reactTest",
+    "start": "live-server --port=8181"
   },
   "repository": {
     "type": "git",
