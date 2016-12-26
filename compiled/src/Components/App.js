@@ -23,21 +23,13 @@ var App = function (_React$Component) {
       return React.createElement(
         "div",
         null,
-        React.createElement(
-          "div",
-          { className: "col-md-7" },
-          "hey sup ",
-          'can you evaluate this?'
-        ),
-        React.createElement(
-          "div",
-          { className: "col-md-5" },
-          "nothing much atm"
-        )
+        React.createElement(Search, null),
+        React.createElement(MainView, null),
+        React.createElement(ActivityList, null)
       );
     }
   }]);
 
   return App;
 }(React.Component);
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9Db21wb25lbnRzL0FwcC5qc3giXSwibmFtZXMiOlsiQXBwIiwiUmVhY3QiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7SUFBTUEsRzs7Ozs7Ozs7Ozs7NkJBQ0s7QUFDUCxhQUFRO0FBQUE7QUFBQTtBQUNOO0FBQUE7QUFBQSxZQUFLLFdBQVUsVUFBZjtBQUFBO0FBQ1c7QUFEWCxTQURNO0FBSU47QUFBQTtBQUFBLFlBQUssV0FBVSxVQUFmO0FBQUE7QUFBQTtBQUpNLE9BQVI7QUFRRDs7OztFQVZlQyxNQUFNQyxTIiwiZmlsZSI6IkFwcC5qcyIsInNvdXJjZXNDb250ZW50IjpbImNsYXNzIEFwcCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKDxkaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1tZC03XCI+XG4gICAgICAgIGhleSBzdXAgeydjYW4geW91IGV2YWx1YXRlIHRoaXM/J31cbiAgICAgIDwvZGl2PlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbWQtNVwiPlxuICAgICAgICBub3RoaW5nIG11Y2ggYXRtXG4gICAgICA8L2Rpdj5cbiAgICA8L2Rpdj4pO1xuICB9XG59XG4iXX0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9Db21wb25lbnRzL0FwcC5qc3giXSwibmFtZXMiOlsiQXBwIiwiUmVhY3QiLCJDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7SUFBTUEsRzs7Ozs7Ozs7Ozs7NkJBQ0s7QUFDUCxhQUFRO0FBQUE7QUFBQTtBQUNOLDRCQUFDLE1BQUQsT0FETTtBQUVOLDRCQUFDLFFBQUQsT0FGTTtBQUdOLDRCQUFDLFlBQUQ7QUFITSxPQUFSO0FBS0Q7Ozs7RUFQZUMsTUFBTUMsUyIsImZpbGUiOiJBcHAuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjbGFzcyBBcHAgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuICg8ZGl2PlxuICAgICAgPFNlYXJjaCAvPlxuICAgICAgPE1haW5WaWV3IC8+XG4gICAgICA8QWN0aXZpdHlMaXN0IC8+XG4gICAgPC9kaXY+KTtcbiAgfVxufVxuIl19

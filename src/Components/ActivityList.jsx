@@ -1,4 +1,5 @@
-const Activity = () => (
+const ActivityList = () => (
   <div>
+    <ActivityResult />
   </div>
 );
