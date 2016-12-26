@@ -1,0 +1,4 @@
+const ActivityDisplay = () => (
+  <div>
+  </div>
+);

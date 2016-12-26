@@ -1,0 +1,4 @@
+const Activity = () => (
+  <div>
+  </div>
+);

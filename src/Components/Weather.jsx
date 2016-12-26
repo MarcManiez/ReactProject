@@ -1,0 +1,4 @@
+const Weather = () => (
+  <div>
+  </div>
+);

@@ -1,0 +1,4 @@
+const Search = () => (
+  <div>
+  </div>
+);
