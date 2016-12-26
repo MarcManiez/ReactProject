@@ -1,0 +1,4 @@
+const ActivityResult = () => (
+  <div>
+  </div>
+);

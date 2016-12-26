@@ -1,2 +1,6 @@
 "use strict";
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJBY3Rpdml0eVJlc3VsdC5qcyIsInNvdXJjZXNDb250ZW50IjpbXX0=
+
+var ActivityResult = function ActivityResult() {
+  return React.createElement("div", null);
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3NyYy9Db21wb25lbnRzL0FjdGl2aXR5UmVzdWx0LmpzeCJdLCJuYW1lcyI6WyJBY3Rpdml0eVJlc3VsdCJdLCJtYXBwaW5ncyI6Ijs7QUFBQSxJQUFNQSxpQkFBaUIsU0FBakJBLGNBQWlCO0FBQUEsU0FDckIsZ0NBRHFCO0FBQUEsQ0FBdkIiLCJmaWxlIjoiQWN0aXZpdHlSZXN1bHQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBBY3Rpdml0eVJlc3VsdCA9ICgpID0+IChcbiAgPGRpdj5cbiAgPC9kaXY+XG4pOyJdfQ==

@@ -1,4 +1,4 @@
-const Searchbar = () => (
+const SearchBar = () => (
   <div>
   </div>
 );
