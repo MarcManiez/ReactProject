@@ -1,0 +1,44 @@
+{
+  "name": "react.project",
+  "description": "My first react project",
+  "main": "index.js",
+  "scripts": {
+    "test": "reactTest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "your",
+    "mum"
+  ],
+  "author": "Marcaroni",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "lodash": "^4.17.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-watch": "^2.0.4",
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-config-rallycoding": "^3.1.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-react": "^6.8.0",
+    "eslint-plugin-standard": "^2.0.1",
+    "live-server": "^1.1.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.6"
+  }
+}
