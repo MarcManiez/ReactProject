@@ -7,8 +7,8 @@ class App extends React.Component {
     }
   }
 
-  fetch(criteria, callback) {
-    getData(criteria, callback);
+  fetch(callback, criteria) {
+    getData(callback, criteria);
   }
 
   setData(data) {
@@ -19,7 +19,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.fetch({}, this.setData.bind(this));
+    this.fetch(this.setData.bind(this));
   }
 
   render() {
