@@ -3,12 +3,12 @@ class App extends React.Component {
     super(props);
     this.state = {
       currentActivity: null,
-      data: null                // this is where we store the result of our ajax call
+      data: null
     }
   }
 
-  fetch(criteria, callback) {
-    getData(criteria, callback);
+  fetch(callback, criteria) {
+    getData(callback, criteria);
   }
 
   setData(data) {
@@ -19,13 +19,13 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.fetch({}, this.setData.bind(this));
+    this.fetch(this.setData.bind(this));
   }
 
   render() {
     return (
       <div>
-        <Search />
+        <Search setData={this.setData.bind(this)} fetch={this.fetch.bind(this)}/>
         <MainView currentActivity={this.state.currentActivity}/>
         <ActivityList areas={this.state.data}/>
       </div>
