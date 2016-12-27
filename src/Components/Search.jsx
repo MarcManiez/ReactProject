@@ -4,12 +4,12 @@ class Search extends React.Component {
       <div className="row">
         <div className="col-md-6 col-xs-6">
           <div className="input-group">
-            <SearchBar />
+            <SearchBar searchType={'location'}/>
           </div>
         </div>
         <div className="col-md-6 col-xs-6">
           <div className="input-group">
-            <SearchBar />
+            <SearchBar searchType={'activity'}/>
           </div>
         </div>
       </div>
