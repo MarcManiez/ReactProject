@@ -16,9 +16,14 @@ class Search extends React.Component {
   Search() {
     this.props.fetch()
   }
+  onKeyPress(event) {
+    if (event.which === 13) {
+      this.props.fetch(this.props.setData, {location: this.state.location, activity: this.state.activity});
+    }
+  }
   render() {
     return (
-      <form onKeyPress={(e) => {if (event.keyCode == 13) {e.preventDefault(); e.target.submit()}}} className="row">
+      <form onKeyPress={this.onKeyPress.bind(this)} className="row">
         <div className="col-md-6 col-xs-6">
           <div className="input-group">
             <SearchBar updateSearchTerms={this.updateSearchTerms.bind(this)} searchType={'location'}/>
