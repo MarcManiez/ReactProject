@@ -3,7 +3,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       currentActivity: null,
-      data: null                // this is where we store the result of our ajax call
+      data: null
     }
   }
 
