@@ -1,5 +1,5 @@
 const Weather = () => (
-  <div>
+  <div className='weather'>
     <h3>Weather</h3>
   </div>
 );

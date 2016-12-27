@@ -1,18 +1,54 @@
-.mainView {
-  min-height: 70vh;
+body {
+  text-align: center;
 }
-/* The heart of the matter */
-.testimonial-group > .row {
+
+/* ==============================
+             Search
+============================== */
+
+.search-bar {
+
+}
+
+/* ==============================
+            Main View
+============================== */
+
+.main-view {
+  min-height: 70vh;
+  margin: 10px;
+}
+
+.activity-display {
+  border: 1px solid black;
+  min-height: 69vh;
+}
+
+.map {
+  min-height: 50vh;
+  border: 1px solid black;
+}
+
+.weather {
+  min-height: 19vh;
+  border: 1px solid black;
+}
+
+/* ==============================
+          Activity List
+============================== */
+
+.activity-list > .row {
   overflow-x: auto;
   white-space: nowrap;
 }
-.testimonial-group > .row > .col-xs-4 {
+
+.activity-list > .row > .activity-result {
   display: inline-block;
   float: none;
 }
 
-/* Decorations */
-.col-xs-4 { 
+.activity-result { 
   color: #333;
   font-size: 48px;
   padding-bottom: 20px;

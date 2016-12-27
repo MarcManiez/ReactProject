@@ -1,5 +1,5 @@
 const ActivityList = () => (
-  <div className="container testimonial-group">
+  <div className="container activity-list">
     <div className="row text-center">
     <ActivityResult />
     <ActivityResult />
