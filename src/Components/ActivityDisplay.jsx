@@ -1,5 +1,5 @@
 const ActivityDisplay = () => (
-  <div>
+  <div className='activity-display'>
     <h1>Activity Display</h1>
   </div>
 );
