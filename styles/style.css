@@ -1,5 +1,13 @@
 body {
   text-align: center;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ),url('https://static.pexels.com/photos/26559/pexels-photo-26559.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Lobster', cursive;
 }
 
 /* ==============================
@@ -20,18 +28,18 @@ body {
 }
 
 .activity-display {
-  border: 1px solid black;
+  border: 2px solid white;
   min-height: 69vh;
 }
 
 .map {
   min-height: 50vh;
-  border: 1px solid black;
+  border: 2px solid white;
 }
 
 .weather {
   min-height: 19vh;
-  border: 1px solid black;
+  border: 2px solid white;
 }
 
 /* ==============================
@@ -41,6 +49,7 @@ body {
 .activity-list > .row {
   overflow-x: auto;
   white-space: nowrap;
+  color: white;
 }
 
 .activity-list > .row > .activity-result {
@@ -48,12 +57,11 @@ body {
   float: none;
 }
 
-.activity-result { 
-  color: #333;
-  font-size: 48px;
+.activity-result {
+  font-size: 1.5rem;
   padding-bottom: 20px;
   padding-top: 18px;
-  border: 1px black solid;
+  border: 1px white solid;
   border-radius: 5px;
   margin-right: 5px;
 }
