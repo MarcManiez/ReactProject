@@ -1,6 +1,6 @@
 const MainView = () => (
   <div>
-    <div className='row'>
+    <div className='row mainView'>
       <div className="col-md-8">
         <ActivityDisplay />
       </div>
