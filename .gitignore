@@ -3,3 +3,6 @@ node_modules
 
 # Credentials
 src/config/credentials.js
+
+# Transpiled files
+/compiled/*
