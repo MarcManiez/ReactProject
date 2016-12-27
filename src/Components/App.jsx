@@ -25,7 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Search />
+        <Search fetch={this.fetch.bind(this)}/>
         <MainView currentActivity={this.state.currentActivity}/>
         <ActivityList areas={this.state.data}/>
       </div>
