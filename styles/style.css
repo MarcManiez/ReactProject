@@ -12,7 +12,9 @@
 }
 
 /* Decorations */
-.col-xs-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
-.col-xs-4:nth-child(3n+1) { background: #c69; }
-.col-xs-4:nth-child(3n+2) { background: #9c6; }
-.col-xs-4:nth-child(3n+3) { background: #69c; }
+.col-xs-4 { 
+  color: #333;
+  font-size: 48px;
+  padding-bottom: 20px;
+  padding-top: 18px;
+}

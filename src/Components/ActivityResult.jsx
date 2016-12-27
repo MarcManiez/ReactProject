@@ -1,4 +1,3 @@
 const ActivityResult = () => (
-  <div>
-  </div>
+  <div className="col-xs-4">1</div>
 );
