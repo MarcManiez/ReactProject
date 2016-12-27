@@ -4,7 +4,7 @@ class Search extends React.Component {
     this.state = {
       location: null,
       activity: null
-    }
+    };
   }
   updateSearchTerms(searchType, value) {
     this.setState(function() {
@@ -12,9 +12,6 @@ class Search extends React.Component {
       obj[searchType] = value;
       return obj;
     });
-  }
-  Search() {
-    this.props.fetch()
   }
   onKeyPress(event) {
     if (event.which === 13 && this.state.location !== null && this.state.activity !== null) {

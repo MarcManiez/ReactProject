@@ -5,7 +5,6 @@ const getData = function(callback, criteria) {
       activity: 'mountain biking'
     };
   }
-  console.log(criteria);
   $.ajax({
     url: 'https://trailapi-trailapi.p.mashape.com/',
     type: 'GET',
