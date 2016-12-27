@@ -14,7 +14,7 @@ class App extends React.Component {
   setData(data) {
     this.setState({
       data: data.places,
-      currentActivity: data.places[0]
+      currentActivity: data.places[0],
     });
   }
 
@@ -27,7 +27,7 @@ class App extends React.Component {
       <div>
         <Search />
         <MainView currentActivity={this.state.currentActivity}/>
-        <ActivityList />
+        <ActivityList areas={this.state.data}/>
       </div>
     );
   }
