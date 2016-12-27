@@ -9,7 +9,7 @@ const getData = function(criteria, callback) {
     },
     dataType: 'json',
     success: callback,
-    error: function(err) { alert("ERROR!"); },
+    error: function(err) { alert('error fetching data'); },
     beforeSend: function(xhr) {
       xhr.setRequestHeader(credentials.auth, credentials.key);
     }
