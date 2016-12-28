@@ -17,7 +17,7 @@ const getData = function(callback, criteria) {
     success: callback,
     error: function(err) { alert('error fetching data'); },
     beforeSend: function(xhr) {
-      xhr.setRequestHeader(credentials.auth, credentials.key);
+      xhr.setRequestHeader(credentials.trailAuth, credentials.trailKey);
     }
   });
 };
