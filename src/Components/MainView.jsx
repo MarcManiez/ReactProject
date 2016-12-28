@@ -6,7 +6,7 @@ const MainView = ({currentActivity}) => (
       </div>
       <div className="col-md-4 map-weather-col">
         <Map />
-        <Weather />
+        <Weather currentActivity={currentActivity}/>
       </div>
     </div>
   </div>
