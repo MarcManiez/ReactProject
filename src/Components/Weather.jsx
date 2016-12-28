@@ -7,7 +7,7 @@ class Weather extends React.Component {
     }
   }
   componentWillReceiveProps(nextProps) {
-    if (!nextProps.currentActivity) return 
+    if (!nextProps.currentActivity) return
     $.getJSON(`http://api.openweathermap.org/data/2.5/weather?lat=${nextProps.currentActivity.lat}&lon=${nextProps.currentActivity.lon}&units=imperial&appid=6aacd398ae4803d7a0bf312facdbfaef`, (json) => {
       this.setState({
         weather: json.weather[0].description,
@@ -17,7 +17,7 @@ class Weather extends React.Component {
   }
   render() {
     return (
-      !this.props.currentActivity ? <div className='weather'>Area loading...</div> :
+      !this.props.currentActivity ? <div className='weather'>Weather loading...</div> :
       <div className='weather'>
         <h3>Weather</h3>
         <p>{this.state.weather} and {this.state.temperature}°F</p>

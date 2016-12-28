@@ -14,12 +14,8 @@ class Search extends React.Component {
     });
   }
   onKeyPress(event) {
-    if (event.which === 13 && this.state.location !== null && this.state.activity !== null) {
+    if (event.which === 13) {
       this.props.fetch(this.props.setData, {location: this.state.location, activity: this.state.activity});
-      this.refs.search.reset();
-      debugger;
-      $('.search-bar').first().focus();
-      this.setState({location: null, activity: null});
     }
   }
   render() {
