@@ -18,6 +18,10 @@ class App extends React.Component {
     });
   }
 
+  handleActivityClick(area) {
+    this.setState({currentActivity: area});
+  }
+
   componentDidMount() {
     this.fetch(this.setData.bind(this));
   }
@@ -27,7 +31,7 @@ class App extends React.Component {
       <div>
         <Search setData={this.setData.bind(this)} fetch={this.fetch.bind(this)}/>
         <MainView currentActivity={this.state.currentActivity}/>
-        <ActivityList areas={this.state.data}/>
+        <ActivityList handleActivityClick={this.handleActivityClick.bind(this)} areas={this.state.data}/>
       </div>
     );
   }
