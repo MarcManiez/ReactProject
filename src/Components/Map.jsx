@@ -1,5 +1,5 @@
-const Map = () => (
+const Map = (props) => (
   <div className='map'>
-    <h3>Map</h3>
+    {getMap(props.currentActivity)}
   </div>
 );
