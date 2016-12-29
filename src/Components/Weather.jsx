@@ -1,4 +1,4 @@
-class Weather extends React.Component {
+class Weather extends React.Component { // try to refactor as stateless component
   constructor(props) {
     super(props);
     this.state = {
@@ -13,7 +13,10 @@ class Weather extends React.Component {
         weather: json.weather[0].description,
         temperature: json.main.temp.toFixed(1)
       });
-    });
+    }); // refactor this into a different file
+    // if (nextProps.currentActivity) {
+    //   getImage(nextProps.currentActivity.name);
+    // }
   }
   render() {
     return (
