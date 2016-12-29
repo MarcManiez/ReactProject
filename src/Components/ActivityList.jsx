@@ -1,10 +1,9 @@
-const ActivityList = (props) => (
- !props.areas ? <div>Area loading...</div> :
+const ActivityList = ({handleActivityClick, areas}) => (
+  !areas ? <div>Area loading...</div> :
+  console.log(areas[0].unique_id)
   <div className="container activity-list">
     <div className="row text-center">
-      {props.areas.map( (area)=> {
-         return <ActivityResult handleActivityClick={props.handleActivityClick} area={area}/>
-      })}
+      {areas.map( (area)=> <ActivityResult key={area.unique_id} handleActivityClick={handleActivityClick} area={area}/>)}
     </div>
   </div>
 );

@@ -1,7 +1,7 @@
-const ActivityResult = (props) => (
-  <div onClick={() => {props.handleActivityClick(props.area)}} className="col-xs-4 activity-result">
-    <p>{props.area.name}</p>
-    <p>{props.area.activities[0].activity_type_name}</p>
-    <p>Rating: {props.area.activities[0].rating}</p>
+const ActivityResult = ({handleActivityClick, area}) => (
+  <div onClick={() => {handleActivityClick(area)}} className="col-xs-4 activity-result">
+    <p>{area.name}</p>
+    <p>{area.activities[0].activity_type_name}</p>
+    <p>Rating: {area.activities[0].rating}</p>
   </div>
 );
