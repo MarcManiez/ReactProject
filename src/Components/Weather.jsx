@@ -20,10 +20,10 @@ class Weather extends React.Component { // try to refactor as stateless componen
   }
   render() {
     return (
-      !this.props.currentActivity ? <div className='weather'>Weather loading...</div> :
+      !this.props.weatherInfo ? <div className='weather'>Weather loading...</div> :
       <div className='weather'>
         <h3>Weather</h3>
-        <p>{this.state.weather} and {this.state.temperature}°F</p>
+        <p>{this.props.weatherInfo.weather} and {this.props.weatherInfo.temperature}°F</p>
       </div>
     );
   }
